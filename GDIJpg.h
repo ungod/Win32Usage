@@ -2,7 +2,7 @@
 #include <ocidl.h>
 #include <olectl.h>
 
-/*用法
+/* //to usage
 	RECT rc;
 	long hmWidth=0;
 	long hmHeight=0;
@@ -19,7 +19,7 @@
 	h = MulDiv(h, GetDeviceCaps(hdc, LOGPIXELSX), 2540);
 	w = MulDiv(w, GetDeviceCaps(hdc, LOGPIXELSY), 2540);
 	
-	//坐标是反的，原点在左下角
+	//zero point in bottom right corner
 	HRESULT hr = lpPic->Render(hdc,nWidth,0, -w, h,hmWidth,hmHeight,-hmWidth,-hmHeight,NULL);
 */
 
